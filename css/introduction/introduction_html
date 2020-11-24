@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+            <meta charset="utf-8">
+            <title>Mika House-CONTACT</title>
+            <meta name="description" content="美加ハウスの紹介">
+            <link rel="icon" type="image/png" href="images/favicon.png">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+          <!-- CSS-->
+            <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+            <link href="css/style.css" rel="stylesheet">
+
+
+  <body>
+      <div id="contact" class="big-bg">
+
+            <header class="page-header wrapper">
+              <h1><a herf="index.html"><img class="logo" src="images/logo.svg" alt="美加ハウス"></a></h1>
+              <nav>
+                <ul class="main-nav">
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </header>
+
+            <div class="wrapper">
+              <h2 class="page-title">Contact</h2>
+              <form action="#">
+                <div>
+                  <label for="name">お名前</label>
+                  <input type="text" id="name" name="your-name">
+                </div>
+
+                <div>
+                  <label for="e-mail">メールアドレス</label>
+                  <input type="email" id="email" name="your-email">
+                </div>
+
+                <div>
+                  <label for="massage">メッセージ</label>
+                  <textarea id="message" name="your-message"></textarea>
+                </div>
+
+                <input type="submit" class="button" value="送信">
+              </form>
+            </div><!-- /.wrapper -->
+        </div><!-- ＃.contact -->
+
+        <section id="location-info">
+          <div class="wrapper">
+
+              <div class="location-info">
+                <h3 class="sub-title">美加ハウス</h3>
+                <p>
+                  住所：埼玉県所沢市<br>
+                  上新井3-61-13<br>
+                  美加ハウス<br>
+                  電話：080-3535-1026<br>
+                  最寄駅：西武新宿線・小手指駅　徒歩9分<br>
+                  階建：3階建
+                </p>
+              </div><!-- /.location-info -->
+
+              <div class="location-map">
+                Googleマップ
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.0717070525056!2d139.4422912!3d35.79817289999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018de76a7844aed%3A0xd1e58535e257c929!2z44CSMzU5LTExNDIgU2FpdGFtYSwgVG9rb3JvemF3YSwgS2FtaWFyYWksIDMtY2jFjW1l4oiSNjHiiJIxMyDnvo7liqDjg4_jgqbjgrk!5e0!3m2!1sen!2sjp!4v1588848366320!5m2!1sen!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div><!-- /.location-map -->
+
+
+          </div><!-- /.wrapper -->
+        </section><!-- location-info -->
+
+
+    <footer>
+
+      
+
+    </footer>
+  
+  </body>
+
+</html>
